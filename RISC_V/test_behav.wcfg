@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="115001fs"></ZoomEndTime>
+      <Cursor1Time time="87674fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="304"></NameColumnWidth>
+      <ValueColumnWidth column_width="142"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/test/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/first/pc_in" type="array">
+      <obj_property name="ElementShortName">pc_in[5:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_in[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/seventh/ans" type="array">
+      <obj_property name="ElementShortName">ans[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ans[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/u_imem/instruct" type="array">
+      <obj_property name="ElementShortName">instruct[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruct[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/u_imem/read_add" type="array">
+      <obj_property name="ElementShortName">read_add[5:0]</obj_property>
+      <obj_property name="ObjectShortName">read_add[5:0]</obj_property>
+   </wvobject>
+</wave_config>
